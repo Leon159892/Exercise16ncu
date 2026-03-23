@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hello World Assignment</title>
+    <style>
+        /* General styling for all boxes */
+        .box {
+            font-family: "Times New Roman", Times, serif;
+            font-size: 32px;
+            font-weight: bold;
+            color: black;
+            margin-bottom: 20px;
+            padding: 10px 15px;
+            width: fit-content; /* Keeps the box from stretching across the whole screen */
+            min-width: 400px;
+        }
+
+        /* 1. Double Border & Light Blue Background */
+        .box-one {
+            background-color: lightblue;
+            /* width | style | color */
+            border: 6px double tomato;
+        }
+
+        /* 2. Solid Border, Rounded Corners & Yellow Background */
+        .box-two {
+            background-color: yellow;
+            border: 4px solid dodgerblue;
+            border-radius: 15px; /* Creates the rounded corners */
+        }
+
+        /* 3. Dotted Border & Green Background */
+        .box-three {
+            background-color: mediumseagreen;
+            border: 12px dotted grey;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="box box-one">Hello World</div>
+    <div class="box box-two">Hello World</div>
+    <div class="box box-three">Hello World</div>
+
+</body>
+</html>
